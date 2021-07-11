@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/move_map"
+        android:icon="@drawable/ic_map_false"
+        android:title="@string/move_to_map"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/move_list"
+        android:icon="@drawable/ic_map_true"
+        android:title="@string/back_to_list" />
+
+</menu>

@@ -3,21 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.daffa.suitmediascreentestapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SuitmediaScreenTestApp"
+        android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".ui.GuestActivity"/>
-        <activity android:name=".ui.EventActivity" />
-        <activity android:name=".ui.UserScreenActivity"
+        <activity android:name=".ui.GuestActivity" />
+        <activity android:name=".ui.EventActivity"
+            android:parentActivityName=".ui.UserScreenActivity"
+            android:theme="@style/Theme.SuitmediaScreenTestAppWithAction"
+            android:label="Event"
             android:launchMode="singleInstance"/>
+        <activity
+            android:name=".ui.UserScreenActivity"
+            android:launchMode="singleInstance" />
         <activity android:name=".ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
