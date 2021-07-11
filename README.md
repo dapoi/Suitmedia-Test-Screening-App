@@ -3,7 +3,7 @@
 ## Having Done
 - Send data between activity
 - Making RecyclerView using Data Dummy & API
-- Get API using Retrofit
+- Get API using Retrofit + MVVM Pattern
 - Polindrome
 - Month is prime
 
