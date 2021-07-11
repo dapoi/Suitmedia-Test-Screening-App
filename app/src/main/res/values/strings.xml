@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Suitmedia Screen Test App</string>
+    <string name="greet">Silahkan masukkan namamu untuk melanjutkan</string>
+    <string name="your_name">Nama</string>
+    <string name="apply">Terima</string>
+    <string name="hi">Hai,</string>
+    <string name="pilih_event">Pilih Event</string>
+    <string name="pilih_guest">Pilih Guest</string>
+    <string name="selamat_datang">Selamat Datang</string>
+</resources>
